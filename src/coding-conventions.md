@@ -11,7 +11,7 @@
     - [Defining (default) component options](#defining-default-component-options)
     - [Component variants with different options](#component-variants-with-different-options)
       - [Areas to make them configurable as component options](#areas-to-make-them-configurable-as-component-options)
-      - [Areas where component optinos are _not_ applied](#areas-where-component-optinos-are-_not_-applied)
+      - [Areas where component options are _not_ applied](#areas-where-component-options-are-_not_-applied)
     - [Creating inherited components](#creating-inherited-components)
   - [Polymorphism with static properties](#polymorphism-with-static-properties)
   - [Custom events](#custom-events)
@@ -121,7 +121,7 @@ A component variant with different options can be created by creating a derived 
 | CSS selectors/classes used in imperative DOM API calls (Doing so allows overriding `.render()` method) | `selectorNonSelectedItem`                          | An exception is where `lit-element`'s `@query` decorator is applicable |
 | [Custom event](#custom-events) names                                                                   | `eventBeforeSelect`                                |                                                                        |
 
-#### Areas where component optinos are _not_ applied
+#### Areas where component options are _not_ applied
 
 - CSS classes used in template (Should be done by overriding `.render()` method)
 
